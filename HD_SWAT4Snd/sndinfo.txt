@@ -1,0 +1,282 @@
+// ===== UI ===== \\
+menu/activate   "sounds/SWAT4/ui/menu_activate.wav"
+menu/backup     "sounds/SWAT4/ui/menu_backup.wav"
+menu/prompt     "sounds/SWAT4/ui/menu_prompt.wav"
+menu/cursor     "sounds/SWAT4/ui/menu_cursor.wav"
+menu/change     "sounds/SWAT4/ui/menu_change.wav"
+menu/invalid    "sounds/SWAT4/ui/menu_invalid.wav"
+menu/dismiss    "sounds/SWAT4/ui/menu_dismiss.wav"
+menu/choose     "sounds/SWAT4/ui/menu_choose.wav"
+menu/clear      "sounds/SWAT4/ui/menu_clear.wav"
+
+$alias intermission/tick            menu/change
+$alias intermission/nextstage       menu/choose
+$alias intermission/paststats       menu/backup
+$alias intermission/pastcoopstats   menu/backup
+$alias intermission/cooptotal       menu/prompt
+$alias intermission/pastdmstats     menu/activate
+
+misc/chat   "sounds/SWAT4/ui/swat_chat.wav"
+$alias misc/chat2 misc/chat
+
+
+
+// ===== FOOTSTEPS (IMMERSE) ===== \\
+swat4/step_default1 "sounds/SWAT4/steps/step_default1.wav"
+swat4/step_default2 "sounds/SWAT4/steps/step_default2.wav"
+swat4/step_default3 "sounds/SWAT4/steps/step_default3.wav"
+swat4/step_default4 "sounds/SWAT4/steps/step_default4.wav"
+swat4/step_default5 "sounds/SWAT4/steps/step_default5.wav"
+$random step/default
+{
+    swat4/step_default1 swat4/step_default2 swat4/step_default3
+    swat4/step_default4 swat4/step_default5
+}
+
+swat4/step_water1   "sounds/SWAT4/steps/step_water1.wav"
+swat4/step_water2   "sounds/SWAT4/steps/step_water2.wav"
+swat4/step_water3   "sounds/SWAT4/steps/step_water3.wav"
+$random step/water
+{
+    swat4/step_water1 swat4/step_water2 swat4/step_water3
+}
+
+swat4/step_carpet1  "sounds/SWAT4/steps/step_carpet1.wav"
+swat4/step_carpet2  "sounds/SWAT4/steps/step_carpet2.wav"
+swat4/step_carpet3  "sounds/SWAT4/steps/step_carpet3.wav"
+swat4/step_carpet4  "sounds/SWAT4/steps/step_carpet4.wav"
+swat4/step_carpet5  "sounds/SWAT4/steps/step_carpet5.wav"
+$random step/carpet
+{
+    swat4/step_carpet1 swat4/step_carpet2 swat4/step_carpet3
+    swat4/step_carpet4 swat4/step_carpet5
+}
+
+swat4/step_dirt1    "sounds/SWAT4/steps/step_dirt1.wav"
+swat4/step_dirt2    "sounds/SWAT4/steps/step_dirt2.wav"
+swat4/step_dirt3    "sounds/SWAT4/steps/step_dirt3.wav"
+swat4/step_dirt4    "sounds/SWAT4/steps/step_dirt4.wav"
+swat4/step_dirt5    "sounds/SWAT4/steps/step_dirt5.wav"
+$random step/dirt
+{
+    swat4/step_dirt1 swat4/step_dirt2 swat4/step_dirt3
+    swat4/step_dirt4 swat4/step_dirt5
+}
+
+swat4/step_gravel1  "sounds/SWAT4/steps/step_gravel1.wav"
+swat4/step_gravel2  "sounds/SWAT4/steps/step_gravel2.wav"
+swat4/step_gravel3  "sounds/SWAT4/steps/step_gravel3.wav"
+swat4/step_gravel4  "sounds/SWAT4/steps/step_gravel4.wav"
+swat4/step_gravel5  "sounds/SWAT4/steps/step_gravel5.wav"
+$random step/gravel
+{
+    swat4/step_gravel1 swat4/step_gravel2 swat4/step_gravel3
+    swat4/step_gravel4 swat4/step_gravel5
+}
+
+swat4/step_metal1   "sounds/SWAT4/steps/step_metal1.wav"
+swat4/step_metal2   "sounds/SWAT4/steps/step_metal2.wav"
+swat4/step_metal3   "sounds/SWAT4/steps/step_metal3.wav"
+$random step/metal/a
+{
+    swat4/step_metal1 swat4/step_metal2 swat4/step_metal3
+}
+
+swat4/step_wood1    "sounds/SWAT4/steps/step_wood1.wav"
+swat4/step_wood2    "sounds/SWAT4/steps/step_wood2.wav"
+swat4/step_wood3    "sounds/SWAT4/steps/step_wood3.wav"
+swat4/step_wood4    "sounds/SWAT4/steps/step_wood4.wav"
+swat4/step_wood5    "sounds/SWAT4/steps/step_wood5.wav"
+$random step/wood
+{
+    swat4/step_wood1 swat4/step_wood2 swat4/step_wood3
+    swat4/step_wood4 swat4/step_wood5
+}
+
+$alias step/hard step/default
+$alias step/metal/b step/metal/a
+$alias step/rock step/default
+$alias step/snow step/gravel
+$alias step/tile/a step/default
+$alias step/tile/b step/default
+$alias step/slime step/water
+$alias step/slimy step/metal/a
+$alias step/lava step/water
+
+
+
+// ===== GENERIC ===== \\
+misc/w_pkup "sounds/SWAT4/items/weapon_pickup.wav"
+world/rocketfar "sounds/SWAT4/explosion_far.wav"
+
+
+
+// ===== CASINGS ===== \\
+swat4/casingdef1    "sounds/SWAT4/weapons/case_default1.wav"
+swat4/casingdef2    "sounds/SWAT4/weapons/case_default2.wav"
+swat4/casingdef3    "sounds/SWAT4/weapons/case_default3.wav"
+swat4/casingdef4    "sounds/SWAT4/weapons/case_default4.wav"
+swat4/casingdef5    "sounds/SWAT4/weapons/case_default5.wav"
+swat4/casingdef6    "sounds/SWAT4/weapons/case_default6.wav"
+swat4/casingdef7    "sounds/SWAT4/weapons/case_default6.wav"
+swat4/casingdef8    "sounds/SWAT4/weapons/case_default7.wav"
+$random misc/casing
+{
+    swat4/casingdef1 swat4/casingdef2 swat4/casingdef3 swat4/casingdef4
+    swat4/casingdef5 swat4/casingdef6 swat4/casingdef7 swat4/casingdef8
+}
+
+swat4/casingbuck1   "sounds/SWAT4/weapons/case_buckshot1.wav"
+swat4/casingbuck2   "sounds/SWAT4/weapons/case_buckshot2.wav"
+swat4/casingbuck3   "sounds/SWAT4/weapons/case_buckshot3.wav"
+swat4/casingbuck4   "sounds/SWAT4/weapons/case_buckshot4.wav"
+swat4/casingbuck5   "sounds/SWAT4/weapons/case_buckshot5.wav"
+$random misc/casing2
+{
+    swat4/casingbuck1 swat4/casingbuck2 swat4/casingbuck3
+    swat4/casingbuck4 swat4/casingbuck5
+}
+
+$alias misc/casing3 misc/casing
+$alias misc/casing4 misc/casing
+
+
+
+// ===== WEAPONS ===== \\
+swat4/shotload1 "sounds/SWAT4/weapons/shell_load1.wav"
+swat4/shotload2 "sounds/SWAT4/weapons/shell_load2.wav"
+swat4/shotload3 "sounds/SWAT4/weapons/shell_load3.wav"
+swat4/shotload4 "sounds/SWAT4/weapons/shell_load4.wav"
+swat4/shotload5 "sounds/SWAT4/weapons/shell_load5.wav"
+
+swat4/punch1    "sounds/SWAT4/weapons/swat_punch1.wav"
+swat4/punch2    "sounds/SWAT4/weapons/swat_punch2.wav"
+$random misc/punch
+{
+    swat4/punch1 swat4/punch2
+}
+$alias weapons/smack misc/punch
+
+
+swat4/pistol1   "sounds/SWAT4/weapons/pistol_fire1.wav"
+swat4/pistol2   "sounds/SWAT4/weapons/pistol_fire2.wav"
+swat4/pistol3   "sounds/SWAT4/weapons/pistol_fire3.wav"
+$random weapons/pistol
+{
+    swat4/pistol1 swat4/pistol2 swat4/pistol3
+}
+weapons/pismagclick "sounds/SWAT4/weapons/pistol_magout.wav"
+weapons/pischamber1 "sounds/SWAT4/weapons/pistol_magin.wav"
+weapons/pischamber2 "sounds/SWAT4/weapons/pistol_slide.wav"
+
+
+swat4/revolverhammer1   "sounds/SWAT4/weapons/revolver_hammer1.wav"
+swat4/revolverhammer2   "sounds/SWAT4/weapons/revolver_hammer2.wav"
+swat4/revolverhammer3   "sounds/SWAT4/weapons/revolver_hammer3.wav"
+$random weapons/deinocyl
+{
+    swat4/revolverhammer1 swat4/revolverhammer2 swat4/revolverhammer3
+}
+weapons/deinoblast1 "sounds/SWAT4/weapons/revolver_fire.wav"
+weapons/deinoclick  "sounds/SWAT4/weapons/revolver_cycle.wav"
+weapons/deinoopen   "sounds/SWAT4/weapons/revolver_open.wav"
+weapons/deinoeject  "sounds/SWAT4/weapons/revolver_eject.wav"
+weapons/deinoload   "sounds/SWAT4/weapons/revolver_insert.wav"
+weapons/deinoclose  "sounds/SWAT4/weapons/revolver_close.wav"
+
+
+weapons/smg         "sounds/SWAT4/weapons/smgs_fire.wav"
+weapons/smgmagmove  "sounds/SWAT4/weapons/smgs_magout.wav"
+weapons/smgmagclick "sounds/SWAT4/weapons/smgs_magin.wav"
+weapons/smgchamber  "sounds/SWAT4/weapons/smgs_chamber.wav"
+
+
+swat4/hunter1   "sounds/SWAT4/weapons/hunter_fire1.wav"
+swat4/hunter2   "sounds/SWAT4/weapons/hunter_fire2.wav"
+$random weapons/hunter
+{
+    swat4/hunter1 swat4/hunter2
+}
+weapons/huntrack        "sounds/SWAT4/weapons/hunter_cock.wav"
+weapons/huntrackup      "sounds/SWAT4/weapons/hunter_cockback.wav"
+weapons/huntrackdown    "sounds/SWAT4/weapons/hunter_cockfwd.wav"
+weapons/huntopen        null
+$random weapons/huntreload 
+{
+    swat4/shotload1 swat4/shotload2 swat4/shotload3
+    swat4/shotload4 swat4/shotload5
+}
+
+
+swat4/slayer1   "sounds/SWAT4/weapons/slayer_fire1.wav"
+swat4/slayer2   "sounds/SWAT4/weapons/slayer_fire2.wav"
+$random weapons/slayersingle
+{
+    swat4/slayer1 swat4/slayer2
+}
+$alias weapons/sshotl weapons/huntreload
+
+
+swat4/zm66a "sounds/SWAT4/weapons/zm66_fire1.wav"
+swat4/zm66b "sounds/SWAT4/weapons/zm66_fire2.wav"
+swat4/zm66c "sounds/SWAT4/weapons/zm66_fire3.wav"
+$random weapons/rifle
+{
+    swat4/zm66a swat4/zm66b swat4/zm66c
+}
+weapons/riflejam    "sounds/SWAT4/weapons/zm66_jammed.wav"
+weapons/rifleunload "sounds/SWAT4/weapons/rifle_magout.wav"
+weapons/rifleload   "sounds/SWAT4/weapons/rifle_magin.wav"
+weapons/rifleclick  "sounds/SWAT4/weapons/zm66_chamber.wav"
+weapons/rifleclick2 "sounds/SWAT4/weapons/swat_click.wav"
+weapons/rifchamber  "sounds/SWAT4/weapons/rifle_magin.wav"
+swat4/glaunch1      "sounds/SWAT4/weapons/glaunch_fire1.wav"
+swat4/glaunch2      "sounds/SWAT4/weapons/glaunch_fire2.wav"
+$random weapons/grenadeshot
+{
+    swat4/glaunch1 swat4/glaunch2
+}
+weapons/grenreload  "sounds/SWAT4/weapons/launcher_load.wav"
+
+
+swat4/vulcanette1   "sounds/SWAT4/weapons/vulcanette_fire1.wav"
+swat4/vulcanette2   "sounds/SWAT4/weapons/vulcanette_fire2.wav"
+$random weapons/vulcanette
+{
+    swat4/vulcanette1 swat4/vulcanette2
+}
+
+
+swat4/rlaunch1  "sounds/SWAT4/weapons/rlaunch_fire1.wav"
+swat4/rlaunch2  "sounds/SWAT4/weapons/rlaunch_fire2.wav"
+$random weapons/rockboom
+{
+    swat4/rlaunch1 swat4/rlaunch2
+}
+weapons/rockchamber "sounds/SWAT4/weapons/rlaunch_empty.wav"
+weapons/rockopen    "sounds/SWAT4/weapons/launcher_open.wav"
+$alias weapons/rockreload weapons/grenreload
+weapons/rockopen2   "sounds/SWAT4/weapons/launcher_close.wav"
+
+
+$alias weapons/bronto weapons/rockboom
+$alias weapons/brontounload weapons/rockopen
+$alias weapons/brontoload weapons/grenreload
+$alias weapons/brontoclose weapons/rockopen2
+
+
+weapons/bigrifle    "sounds/SWAT4/weapons/liberator_fire.wav"
+weapons/libchamber  "sounds/SWAT4/weapons/liberator_chamber.wav"
+
+
+swat4/boss1 "sounds/SWAT4/weapons/boss_fire1.wav"
+swat4/boss2 "sounds/SWAT4/weapons/boss_fire2.wav"
+$random weapons/bigrifle2
+{
+    swat4/boss1 swat4/boss2
+}
+weapons/boltback    "sounds/SWAT4/weapons/boss_boltback.wav"
+weapons/boltfwd     "sounds/SWAT4/weapons/boss_boltfwd.wav"
+
+
+weapons/fragpinout  "sounds/SWAT4/weapons/grenade_pin.wav"

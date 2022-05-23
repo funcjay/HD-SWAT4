@@ -1,0 +1,13 @@
+"/music/Amb-Arcade.ogg"     "/music/Act-Arcade.ogg" *0
+"/music/Amb-Arms.ogg"       "/music/Act-Arms.ogg" *0
+"/music/Amb-Auto.ogg"       "/music/Act-Auto.ogg" *0
+"/music/Amb-Backstage.ogg"  "/music/Act-Backstage.ogg" *0
+"/music/Amb-Brewers.ogg"    "/music/Act-Brewers.ogg" *0
+"/music/Amb-Casino.ogg"     "/music/Act-Casino.ogg" *0
+"/music/Amb-Conv.ogg"       "/music/Act-Conv.ogg" *0
+"/music/Amb-Druglab.ogg"    "/music/Act-Druglab.ogg" *0
+"/music/Amb-Food.ogg"       "/music/Act-Food.ogg" *0
+"/music/Amb-Halfway.ogg"    "/music/Act-Halfway.ogg" *0
+"/music/Amb-Red.ogg"        "/music/Act-Red.ogg" *0
+"/music/Amb-Subway.ogg"     "/music/Act-Subway.ogg" *0
+"/music/Amb-Tenement.ogg"   "/music/Act-Tenement.ogg" *0
