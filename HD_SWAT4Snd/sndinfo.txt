@@ -230,6 +230,7 @@ weapons/rifleload   "sounds/SWAT4/weapons/rifle_magin.wav"
 weapons/rifleclick  "sounds/SWAT4/weapons/zm66_chamber.wav"
 weapons/rifleclick2 "sounds/SWAT4/weapons/swat_click.wav"
 weapons/rifchamber  "sounds/SWAT4/weapons/rifle_magin.wav"
+weapons/grenopen    "sounds/SWAT4/weapons/launcher_open.wav"
 swat4/glaunch1      "sounds/SWAT4/weapons/glaunch_fire1.wav"
 swat4/glaunch2      "sounds/SWAT4/weapons/glaunch_fire2.wav"
 $random weapons/grenadeshot
@@ -254,7 +255,7 @@ $random weapons/rockboom
     swat4/rlaunch1 swat4/rlaunch2
 }
 weapons/rockchamber "sounds/SWAT4/weapons/rlaunch_empty.wav"
-weapons/rockopen    "sounds/SWAT4/weapons/launcher_open.wav"
+$alias weapons/rockopen weapons/grenopen
 $alias weapons/rockreload weapons/grenreload
 weapons/rockopen2   "sounds/SWAT4/weapons/launcher_close.wav"
 
