@@ -158,13 +158,7 @@ $random misc/punch
 $alias weapons/smack misc/punch
 
 
-swat4/pistol1   "sounds/SWAT4/weapons/pistol_fire1.wav"
-swat4/pistol2   "sounds/SWAT4/weapons/pistol_fire2.wav"
-swat4/pistol3   "sounds/SWAT4/weapons/pistol_fire3.wav"
-$random weapons/pistol
-{
-    swat4/pistol1 swat4/pistol2 swat4/pistol3
-}
+weapons/pistol      "sounds/SWAT4/weapons/pistol_fire.wav"
 weapons/pismagclick "sounds/SWAT4/weapons/pistol_magout.wav"
 weapons/pischamber1 "sounds/SWAT4/weapons/pistol_magin.wav"
 weapons/pischamber2 "sounds/SWAT4/weapons/pistol_slide.wav"
@@ -281,3 +275,12 @@ weapons/boltfwd     "sounds/SWAT4/weapons/boss_boltfwd.wav"
 
 
 weapons/fragpinout  "sounds/SWAT4/weapons/grenade_pin.wav"
+
+
+// mods
+
+// swampyrad's colt 1911
+swat4/colt1 "sounds/SWAT4/weapons/colt_fire1.wav"
+swat4/colt2 "sounds/SWAT4/weapons/colt_fire2.wav"
+swat4/colt3 "sounds/SWAT4/weapons/colt_fire3.wav"
+$random weapons/colt1911    { swat4/colt1 swat4/colt2 swat4/colt3 }
