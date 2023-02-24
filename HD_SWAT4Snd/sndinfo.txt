@@ -105,6 +105,19 @@ $alias step/lava step/water
 
 
 
+// ===== FOOTSTEPS (VANILLA) ===== \\
+$alias humanoid/step step/default
+$alias humanoid/squishstep step/dirt
+$alias serpentipede/step step/dirt
+$alias imp/step step/default
+$alias babuin/step step/dirt
+$alias babuin/wormstep step/dirt
+$alias baron/step step/default
+$alias baron/clawstep step/default
+$alias mancubus/step step/default
+
+
+
 // ===== GENERIC ===== \\
 misc/w_pkup "sounds/SWAT4/items/weapon_pickup.wav"
 world/rocketfar "sounds/SWAT4/explosion_far.wav"
